@@ -127,7 +127,7 @@ function Update()
 		dynamicOutput[#dynamicOutput + 1] = "MeasureName=MeasureTaskIcon"..i
 		dynamicOutput[#dynamicOutput + 1] = "Text=[#[#check"..i.."]]"
 		dynamicOutput[#dynamicOutput + 1] = "FontFace=FontAwesome"
-		dynamicOutput[#dynamicOutput + 1] = "FontSize=18"
+		dynamicOutput[#dynamicOutput + 1] = "FontSize=10"
 
 		if tasks[i][2] == isSelectedMark then
 			dynamicOutput[#dynamicOutput + 1] = "FontColor="..OPAQUE_WHITE_COLOR..""
@@ -150,7 +150,7 @@ function Update()
 		dynamicOutput[#dynamicOutput + 1] = "Meter=String"
 		dynamicOutput[#dynamicOutput + 1] = "Text="..tasks[i][1]
 		dynamicOutput[#dynamicOutput + 1] = "FontFace=Roboto"
-		dynamicOutput[#dynamicOutput + 1] = "FontSize=16"
+		dynamicOutput[#dynamicOutput + 1] = "FontSize=10"
 
 		-- grey out done task
 		if tasks[i][2] == isSelectedMark then
@@ -175,7 +175,7 @@ function Update()
 		dynamicOutput[#dynamicOutput + 1] = "Meter=String"
 		dynamicOutput[#dynamicOutput + 1] = "MeasureName=MeasureRecurringIcon"..i
 		dynamicOutput[#dynamicOutput + 1] = "FontFace=FontAwesome"
-		dynamicOutput[#dynamicOutput + 1] = "FontSize=18"
+		dynamicOutput[#dynamicOutput + 1] = "FontSize=10"
 		dynamicOutput[#dynamicOutput + 1] = "FontColor=[#recurring"..i.."]"
 		dynamicOutput[#dynamicOutput + 1] = "SolidColor=0,0,0,1"
 		dynamicOutput[#dynamicOutput + 1] = "AntiAlias=1"
@@ -208,7 +208,7 @@ function Update()
 
 
 		dynamicOutput[#dynamicOutput + 1] = "FontFace=FontAwesome"
-		dynamicOutput[#dynamicOutput + 1] = "FontSize=18"
+		dynamicOutput[#dynamicOutput + 1] = "FontSize=10"
 		dynamicOutput[#dynamicOutput + 1] = "FontColor=[#important"..i.."]"
 		dynamicOutput[#dynamicOutput + 1] = "SolidColor=0,0,0,1"
 		dynamicOutput[#dynamicOutput + 1] = "AntiAlias=1"
@@ -228,7 +228,7 @@ function Update()
 			dynamicOutput[#dynamicOutput + 1] = "MeasureName=MeterTaskDeleteIcon"..i
 			dynamicOutput[#dynamicOutput + 1] = "Text=[#fa-trash-o]"
 			dynamicOutput[#dynamicOutput + 1] = "FontFace=FontAwesome"
-			dynamicOutput[#dynamicOutput + 1] = "FontSize=18"
+			dynamicOutput[#dynamicOutput + 1] = "FontSize=10"
 			dynamicOutput[#dynamicOutput + 1] = "FontColor=255,255,255,255"
 			dynamicOutput[#dynamicOutput + 1] = "SolidColor=0,0,0,1"
 			dynamicOutput[#dynamicOutput + 1] = "AntiAlias=1"
@@ -255,7 +255,7 @@ function Update()
 		if i ~= 2 then
 			dynamicOutput[#dynamicOutput + 1] = "Text=[#fa-angle-up]"
 			dynamicOutput[#dynamicOutput + 1] = "FontFace=FontAwesome"
-			dynamicOutput[#dynamicOutput + 1] = "FontSize=18"
+			dynamicOutput[#dynamicOutput + 1] = "FontSize=10"
 			dynamicOutput[#dynamicOutput + 1] = "FontColor=255,255,255,255"
 			dynamicOutput[#dynamicOutput + 1] = "SolidColor=0,0,0,1"
 			dynamicOutput[#dynamicOutput + 1] = "AntiAlias=1"
@@ -277,7 +277,7 @@ function Update()
 
 			dynamicOutput[#dynamicOutput + 1] = "Text=[#fa-angle-down]"
 			dynamicOutput[#dynamicOutput + 1] = "FontFace=FontAwesome"
-			dynamicOutput[#dynamicOutput + 1] = "FontSize=18"
+			dynamicOutput[#dynamicOutput + 1] = "FontSize=10"
 			dynamicOutput[#dynamicOutput + 1] = "FontColor=255,255,255,255"
 			dynamicOutput[#dynamicOutput + 1] = "SolidColor=0,0,0,1"
 			dynamicOutput[#dynamicOutput + 1] = "AntiAlias=1"
@@ -333,7 +333,7 @@ function Update()
 	dynamicOutput[#dynamicOutput + 1] = "Meter=String"
 	dynamicOutput[#dynamicOutput + 1] = "Text=#fa-refresh#"
 	dynamicOutput[#dynamicOutput + 1] = "FontFace=FontAwesome"
-	dynamicOutput[#dynamicOutput + 1] = "FontSize=16"
+	dynamicOutput[#dynamicOutput + 1] = "FontSize=10"
 	dynamicOutput[#dynamicOutput + 1] = "FontColor=255,255,255,255"
 	dynamicOutput[#dynamicOutput + 1] = "SolidColor=0,0,0,1"
 	dynamicOutput[#dynamicOutput + 1] = "AntiAlias=1"
@@ -348,7 +348,7 @@ function Update()
 	dynamicOutput[#dynamicOutput + 1] = "Meter=String"
 	dynamicOutput[#dynamicOutput + 1] = "Text=#fa-plus-sq#"
 	dynamicOutput[#dynamicOutput + 1] = "FontFace=FontAwesome"
-	dynamicOutput[#dynamicOutput + 1] = "FontSize=16"
+	dynamicOutput[#dynamicOutput + 1] = "FontSize=10"
 	dynamicOutput[#dynamicOutput + 1] = "FontColor=255,255,255,255"
 	dynamicOutput[#dynamicOutput + 1] = "SolidColor=0,0,0,1"
 	dynamicOutput[#dynamicOutput + 1] = "AntiAlias=1"
@@ -369,7 +369,7 @@ function Update()
 	dynamicOutput[#dynamicOutput + 1] = "Meter=String"
 	dynamicOutput[#dynamicOutput + 1] = "Text=#fa-undo#"
 	dynamicOutput[#dynamicOutput + 1] = "FontFace=FontAwesome"
-	dynamicOutput[#dynamicOutput + 1] = "FontSize=16"
+	dynamicOutput[#dynamicOutput + 1] = "FontSize=10"
 	dynamicOutput[#dynamicOutput + 1] = "FontColor=255,255,255,255"
 	dynamicOutput[#dynamicOutput + 1] = "SolidColor=0,0,0,1"
 	dynamicOutput[#dynamicOutput + 1] = "AntiAlias=1"

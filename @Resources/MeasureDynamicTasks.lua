@@ -49,23 +49,23 @@ function Update()
 		dynamicOutput[#dynamicOutput + 1] = "IfMatchMode=1"
 		dynamicOutput[#dynamicOutput + 1] = "DynamicVariables=1"
 
-		dynamicOutput[#dynamicOutput + 1] = "[MeasureRecurringIcon"..i.."]"
-		dynamicOutput[#dynamicOutput + 1] = "Measure=String"
-		dynamicOutput[#dynamicOutput + 1] = "String=#recurring"..i.."state#"
-		dynamicOutput[#dynamicOutput + 1] = "IfMatch=0"
-		dynamicOutput[#dynamicOutput + 1] = "IfMatchAction=[!SetVariable recurring"..i.." "..OPAQUE_WHITE_COLOR.."]"
-		dynamicOutput[#dynamicOutput + 1] = "IfNotMatchAction=[!SetVariable recurring"..i.." "..WHITE_COLOR.."]"
-		dynamicOutput[#dynamicOutput + 1] = "IfMatchMode=1"
-		dynamicOutput[#dynamicOutput + 1] = "DynamicVariables=1"
+--		dynamicOutput[#dynamicOutput + 1] = "[MeasureRecurringIcon"..i.."]"
+--		dynamicOutput[#dynamicOutput + 1] = "Measure=String"
+--		dynamicOutput[#dynamicOutput + 1] = "String=#recurring"..i.."state#"
+--		dynamicOutput[#dynamicOutput + 1] = "IfMatch=0"
+--		dynamicOutput[#dynamicOutput + 1] = "IfMatchAction=[!SetVariable recurring"..i.." "..OPAQUE_WHITE_COLOR.."]"
+--		dynamicOutput[#dynamicOutput + 1] = "IfNotMatchAction=[!SetVariable recurring"..i.." "..WHITE_COLOR.."]"
+--		dynamicOutput[#dynamicOutput + 1] = "IfMatchMode=1"
+--		dynamicOutput[#dynamicOutput + 1] = "DynamicVariables=1"
 
-		dynamicOutput[#dynamicOutput + 1] = "[MeasureImportantIcon"..i.."]"
-		dynamicOutput[#dynamicOutput + 1] = "Measure=String"
-		dynamicOutput[#dynamicOutput + 1] = "String=#important"..i.."state#"
-		dynamicOutput[#dynamicOutput + 1] = "IfMatch=0"
-		dynamicOutput[#dynamicOutput + 1] = "IfMatchAction=[!SetVariable important"..i.." "..OPAQUE_WHITE_COLOR.."]"
-		dynamicOutput[#dynamicOutput + 1] = "IfNotMatchAction=[!SetVariable important"..i.." "..WHITE_COLOR.."]"
-		dynamicOutput[#dynamicOutput + 1] = "IfMatchMode=1"
-		dynamicOutput[#dynamicOutput + 1] = "DynamicVariables=1"
+--		dynamicOutput[#dynamicOutput + 1] = "[MeasureImportantIcon"..i.."]"
+--		dynamicOutput[#dynamicOutput + 1] = "Measure=String"
+--		dynamicOutput[#dynamicOutput + 1] = "String=#important"..i.."state#"
+--		dynamicOutput[#dynamicOutput + 1] = "IfMatch=0"
+--		dynamicOutput[#dynamicOutput + 1] = "IfMatchAction=[!SetVariable important"..i.." "..OPAQUE_WHITE_COLOR.."]"
+--		dynamicOutput[#dynamicOutput + 1] = "IfNotMatchAction=[!SetVariable important"..i.." "..WHITE_COLOR.."]"
+--		dynamicOutput[#dynamicOutput + 1] = "IfMatchMode=1"
+--		dynamicOutput[#dynamicOutput + 1] = "DynamicVariables=1"
 		
 	end
 
@@ -86,35 +86,35 @@ function Update()
 			dynamicOutput[#dynamicOutput + 1] = "H=35"
 			dynamicOutput[#dynamicOutput + 1] = "W=305"
 
-			dynamicOutput[#dynamicOutput + 1] = "[MeterRecurringIcon"..i.."]"
-			dynamicOutput[#dynamicOutput + 1] = "Meter=String"
-			dynamicOutput[#dynamicOutput + 1] = "MeasureName=MeasureRecurringIcon"..i
-			dynamicOutput[#dynamicOutput + 1] = "Text=R"
-			dynamicOutput[#dynamicOutput + 1] = "FontSize=8"
-			dynamicOutput[#dynamicOutput + 1] = "FontColor="..OPAQUE_WHITE_COLOR..""
-			dynamicOutput[#dynamicOutput + 1] = "SolidColor=0,0,0,1"
-			dynamicOutput[#dynamicOutput + 1] = "AntiAlias=1"
-			dynamicOutput[#dynamicOutput + 1] = "ClipString=1"
-			dynamicOutput[#dynamicOutput + 1] = "X=R"
-			dynamicOutput[#dynamicOutput + 1] = "Y=r"
-			dynamicOutput[#dynamicOutput + 1] = "H=35"
-			dynamicOutput[#dynamicOutput + 1] = "W=35"
-			dynamicOutput[#dynamicOutput + 1] = "DynamicVariables=1"
+--			dynamicOutput[#dynamicOutput + 1] = "[MeterRecurringIcon"..i.."]"
+--			dynamicOutput[#dynamicOutput + 1] = "Meter=String"
+--			dynamicOutput[#dynamicOutput + 1] = "MeasureName=MeasureRecurringIcon"..i
+--			dynamicOutput[#dynamicOutput + 1] = "Text=R"
+--			dynamicOutput[#dynamicOutput + 1] = "FontSize=8"
+--			dynamicOutput[#dynamicOutput + 1] = "FontColor="..OPAQUE_WHITE_COLOR..""
+--			dynamicOutput[#dynamicOutput + 1] = "SolidColor=0,0,0,1"
+--			dynamicOutput[#dynamicOutput + 1] = "AntiAlias=1"
+--			dynamicOutput[#dynamicOutput + 1] = "ClipString=1"
+--			dynamicOutput[#dynamicOutput + 1] = "X=R"
+--			dynamicOutput[#dynamicOutput + 1] = "Y=r"
+--			dynamicOutput[#dynamicOutput + 1] = "H=35"
+--			dynamicOutput[#dynamicOutput + 1] = "W=35"
+--			dynamicOutput[#dynamicOutput + 1] = "DynamicVariables=1"
 
-			dynamicOutput[#dynamicOutput + 1] = "[MeterImportantIcon"..i.."]"
-			dynamicOutput[#dynamicOutput + 1] = "Meter=String"
-			dynamicOutput[#dynamicOutput + 1] = "MeasureName=MeasureImportantIcon"..i
-			dynamicOutput[#dynamicOutput + 1] = "Text=I"
-			dynamicOutput[#dynamicOutput + 1] = "FontSize=8"
-			dynamicOutput[#dynamicOutput + 1] = "FontColor="..OPAQUE_WHITE_COLOR..""
-			dynamicOutput[#dynamicOutput + 1] = "SolidColor=0,0,0,1"
-			dynamicOutput[#dynamicOutput + 1] = "AntiAlias=1"
-			dynamicOutput[#dynamicOutput + 1] = "ClipString=1"
-			dynamicOutput[#dynamicOutput + 1] = "X=R"
-			dynamicOutput[#dynamicOutput + 1] = "Y=r"
-			dynamicOutput[#dynamicOutput + 1] = "H=35"
-			dynamicOutput[#dynamicOutput + 1] = "W=50"
-			dynamicOutput[#dynamicOutput + 1] = "DynamicVariables=1"
+--			dynamicOutput[#dynamicOutput + 1] = "[MeterImportantIcon"..i.."]"
+--			dynamicOutput[#dynamicOutput + 1] = "Meter=String"
+--			dynamicOutput[#dynamicOutput + 1] = "MeasureName=MeasureImportantIcon"..i
+--			dynamicOutput[#dynamicOutput + 1] = "Text=I"
+--			dynamicOutput[#dynamicOutput + 1] = "FontSize=8"
+--			dynamicOutput[#dynamicOutput + 1] = "FontColor="..OPAQUE_WHITE_COLOR..""
+--			dynamicOutput[#dynamicOutput + 1] = "SolidColor=0,0,0,1"
+--			dynamicOutput[#dynamicOutput + 1] = "AntiAlias=1"
+--			dynamicOutput[#dynamicOutput + 1] = "ClipString=1"
+--			dynamicOutput[#dynamicOutput + 1] = "X=R"
+--			dynamicOutput[#dynamicOutput + 1] = "Y=r"
+--			dynamicOutput[#dynamicOutput + 1] = "H=35"
+--			dynamicOutput[#dynamicOutput + 1] = "W=50"
+--			dynamicOutput[#dynamicOutput + 1] = "DynamicVariables=1"
 	
 
 	
@@ -171,54 +171,54 @@ function Update()
 		
 		
 		-- recurring
-		dynamicOutput[#dynamicOutput + 1] = "[MeterRecurringIcon"..i.."]"
-		dynamicOutput[#dynamicOutput + 1] = "Meter=String"
-		dynamicOutput[#dynamicOutput + 1] = "MeasureName=MeasureRecurringIcon"..i
-		dynamicOutput[#dynamicOutput + 1] = "FontFace=FontAwesome"
-		dynamicOutput[#dynamicOutput + 1] = "FontSize=10"
-		dynamicOutput[#dynamicOutput + 1] = "FontColor=[#recurring"..i.."]"
-		dynamicOutput[#dynamicOutput + 1] = "SolidColor=0,0,0,1"
-		dynamicOutput[#dynamicOutput + 1] = "AntiAlias=1"
-		dynamicOutput[#dynamicOutput + 1] = "ClipString=1"
-		dynamicOutput[#dynamicOutput + 1] = "X=R"
-		dynamicOutput[#dynamicOutput + 1] = "Y=r"
-		dynamicOutput[#dynamicOutput + 1] = "H=35"
-		dynamicOutput[#dynamicOutput + 1] = "W=30"
-		dynamicOutput[#dynamicOutput + 1] = "LeftMouseUpAction=[!SetVariable recurring"..i.."state (1-#recurring"..i.."state#)][!CommandMeasure \"MeasureDynamicTasks\" \"Toggle("..i..", 3)\"] [!Refresh][!Refresh]"
-		dynamicOutput[#dynamicOutput + 1] = "DynamicVariables=1"
+--		dynamicOutput[#dynamicOutput + 1] = "[MeterRecurringIcon"..i.."]"
+--		dynamicOutput[#dynamicOutput + 1] = "Meter=String"
+--		dynamicOutput[#dynamicOutput + 1] = "MeasureName=MeasureRecurringIcon"..i
+--		dynamicOutput[#dynamicOutput + 1] = "FontFace=FontAwesome"
+--		dynamicOutput[#dynamicOutput + 1] = "FontSize=10"
+--		dynamicOutput[#dynamicOutput + 1] = "FontColor=[#recurring"..i.."]"
+--		dynamicOutput[#dynamicOutput + 1] = "SolidColor=0,0,0,1"
+--		dynamicOutput[#dynamicOutput + 1] = "AntiAlias=1"
+--		dynamicOutput[#dynamicOutput + 1] = "ClipString=1"
+--		dynamicOutput[#dynamicOutput + 1] = "X=R"
+--		dynamicOutput[#dynamicOutput + 1] = "Y=r"
+--		dynamicOutput[#dynamicOutput + 1] = "H=35"
+--		dynamicOutput[#dynamicOutput + 1] = "W=30"
+--		dynamicOutput[#dynamicOutput + 1] = "LeftMouseUpAction=[!SetVariable recurring"..i.."state (1-#recurring"..i.."state#)][!CommandMeasure \"MeasureDynamicTasks\" \"Toggle("..i..", 3)\"] [!Refresh][!Refresh]"
+--		dynamicOutput[#dynamicOutput + 1] = "DynamicVariables=1"
 
-		if tasks[i][3] == isSelectedMark then
-			dynamicOutput[#dynamicOutput + 1] = "Text=[#fa-check-circle-o]"
-		else
-			dynamicOutput[#dynamicOutput + 1] = "Text=[#fa-circle-o]"
-		end
+--		if tasks[i][3] == isSelectedMark then
+--			dynamicOutput[#dynamicOutput + 1] = "Text=[#fa-check-circle-o]"
+--		else
+--			dynamicOutput[#dynamicOutput + 1] = "Text=[#fa-circle-o]"
+--		end
 
 
 		-- important
-		dynamicOutput[#dynamicOutput + 1] = "[MeterImportantIcon"..i.."]"
-		dynamicOutput[#dynamicOutput + 1] = "Meter=String"
-		dynamicOutput[#dynamicOutput + 1] = "MeasureName=MeasureImportantIcon"..i
+--		dynamicOutput[#dynamicOutput + 1] = "[MeterImportantIcon"..i.."]"
+--		dynamicOutput[#dynamicOutput + 1] = "Meter=String"
+--		dynamicOutput[#dynamicOutput + 1] = "MeasureName=MeasureImportantIcon"..i
 
 
-		if tasks[i][4] == isSelectedMark then
-			dynamicOutput[#dynamicOutput + 1] = "Text=[#fa-check-circle-o]"
-		else
-			dynamicOutput[#dynamicOutput + 1] = "Text=[#fa-circle-o]"
-		end
+--		if tasks[i][4] == isSelectedMark then
+--			dynamicOutput[#dynamicOutput + 1] = "Text=[#fa-check-circle-o]"
+--		else
+--			dynamicOutput[#dynamicOutput + 1] = "Text=[#fa-circle-o]"
+--		end
 
 
-		dynamicOutput[#dynamicOutput + 1] = "FontFace=FontAwesome"
-		dynamicOutput[#dynamicOutput + 1] = "FontSize=10"
-		dynamicOutput[#dynamicOutput + 1] = "FontColor=[#important"..i.."]"
-		dynamicOutput[#dynamicOutput + 1] = "SolidColor=0,0,0,1"
-		dynamicOutput[#dynamicOutput + 1] = "AntiAlias=1"
-		dynamicOutput[#dynamicOutput + 1] = "ClipString=1"
-		dynamicOutput[#dynamicOutput + 1] = "X=R"
-		dynamicOutput[#dynamicOutput + 1] = "Y=r"
-		dynamicOutput[#dynamicOutput + 1] = "H=35"
-		dynamicOutput[#dynamicOutput + 1] = "W=30"
-		dynamicOutput[#dynamicOutput + 1] = "LeftMouseUpAction=[!SetVariable important"..i.."state (1-#important"..i.."state#)][!CommandMeasure \"MeasureDynamicTasks\" \"Toggle("..i..", 4)\"] [!Refresh][!Refresh]"
-		dynamicOutput[#dynamicOutput + 1] = "DynamicVariables=1"
+--		dynamicOutput[#dynamicOutput + 1] = "FontFace=FontAwesome"
+--		dynamicOutput[#dynamicOutput + 1] = "FontSize=10"
+--		dynamicOutput[#dynamicOutput + 1] = "FontColor=[#important"..i.."]"
+--		dynamicOutput[#dynamicOutput + 1] = "SolidColor=0,0,0,1"
+--		dynamicOutput[#dynamicOutput + 1] = "AntiAlias=1"
+--		dynamicOutput[#dynamicOutput + 1] = "ClipString=1"
+--		dynamicOutput[#dynamicOutput + 1] = "X=R"
+--		dynamicOutput[#dynamicOutput + 1] = "Y=r"
+--		dynamicOutput[#dynamicOutput + 1] = "H=35"
+--		dynamicOutput[#dynamicOutput + 1] = "W=30"
+--		dynamicOutput[#dynamicOutput + 1] = "LeftMouseUpAction=[!SetVariable important"..i.."state (1-#important"..i.."state#)][!CommandMeasure \"MeasureDynamicTasks\" \"Toggle("..i..", 4)\"] [!Refresh][!Refresh]"
+--		dynamicOutput[#dynamicOutput + 1] = "DynamicVariables=1"
 
 
 		-- delete
